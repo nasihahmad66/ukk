@@ -29,8 +29,8 @@ ajaxFilePost = function(url, formData, fnOK, fnNok){
 		contentType	: false,
 		processData	: false,
 		success	: function (data) {
-			if (typeof fnOk == "function") {
-				fnOk(data)
+			if (typeof fnOK == "function") {
+				fnOK(data)
 			}
 		},
 		error	: function(error) {
